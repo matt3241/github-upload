@@ -22,7 +22,7 @@ body {
   h3 {
     margin-top: 5%;
     color: #fffbfc;
-    font-size: 1.8em;
+    font-size: 1.7vw;
     font-family: 'Poppins', sans-serif;
    /* align-text: center;*/
   }
@@ -31,7 +31,7 @@ body {
   h6 {
     margin-top: 5%;
     color: #F89B1C;
-    font-size: 1.8em;
+    font-size: 1.7vw;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -54,7 +54,7 @@ body {
   
   p {
     color: #fffbfc;
-    font-size: 1.25em;
+    font-size: 1.1vw;
     font-family: 'Poppins', sans-serif;
     margin-right: 5%;
     margin-left: 5%;
@@ -135,7 +135,7 @@ body {
   .footer {
     background-color: #fffbfc;
     color: #3e7ebf;
-    font-size: 1.25em;
+    font-size: 1.1vw;
     font-family: 'Poppins', sans-serif;
     margin-right: 5%;
     margin-left: 5%;
