@@ -5,14 +5,14 @@ body {
   
   h1 {
     color: #F89B1C;
-    font-size: 3.5em;
+    font-size: 3.5vw;
     font-family: 'Playfair Display', serif;
     
   }
   
   h2 {
     color: #3e7ebf;
-    font-size: 1.8em;
+    font-size: 1.7vw;
     font-family: 'Playfair Display', serif;
     line-height: 1.75em;
    /* align-text: center;*/
