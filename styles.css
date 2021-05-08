@@ -1,0 +1,266 @@
+body {
+    background-color: #fffbfc;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #F89B1C;
+    font-size: 3.5em;
+    font-family: 'Playfair Display', serif;
+    
+  }
+  
+  h2 {
+    color: #3e7ebf;
+    font-size: 1.8em;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.75em;
+   /* align-text: center;*/
+  }
+
+
+  h3 {
+    margin-top: 5%;
+    color: #fffbfc;
+    font-size: 1.8em;
+    font-family: 'Poppins', sans-serif;
+   /* align-text: center;*/
+  }
+
+  
+  h6 {
+    margin-top: 5%;
+    color: #F89B1C;
+    font-size: 1.8em;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h4 {
+    color: #fffbfc;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0px;
+    justify-items: flex-start;
+  }
+
+  h5 {
+    color: #fffbfc;
+    font-size: .75em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+
+  
+  p {
+    color: #fffbfc;
+    font-size: 1.25em;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 5%;
+    margin-left: 5%;
+    /*margin: auto;*/
+  }
+
+
+  .box {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*align-items: center;*/
+  }
+
+  .textbox {
+    text-align: left;
+    margin-bottom: 11vw;
+    padding: 1em;
+    border-radius: 3%;
+    margin-right: 40vw;
+    background-color:#fffbfc
+  }
+
+  .header {
+    background-color: #fffbfc;
+    color: #000;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .main {
+    display: flex;
+    background-image: url("http://www.multiling.com/wp-content/uploads/2018/07/AdobeStock_177452394.jpeg");
+    filter: saturate(4); 
+    background-size: cover;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .phone {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: transparent;
+    height: 50vh;
+    padding-right: 5%;
+  }
+
+  .asideleft {
+    background-color: #3e7ebf;
+    color: #000;
+    grid-column: 1 / 2;
+    grid-row: 3 / 3;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+  }
+
+  .asideright {
+    background-color: #3e7ebf;
+    color: #000;
+    grid-column: 3 / 4;
+    grid-row: 3 / 3;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+  }
+
+  .logo {
+    padding-left: 3%;
+    background-color: transparent;
+  }
+
+  .footer {
+    background-color: #fffbfc;
+    color: #3e7ebf;
+    font-size: 1.25em;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 5%;
+    margin-left: 5%;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+  }
+
+  * {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+.menubar {
+  display: inline-flex;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+  left: 60vw;
+  justify-items: center;
+}
+
+  .menubar li {
+  display: inline-block;
+  padding: 1rem;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  background: #3e7ebf;
+  border-radius: 3px;
+}
+
+.menubar li a {
+  color: rgb(71, 71, 71);
+  text-decoration: none;
+  display: block;
+  }
+
+.menubar li:hover {
+  background: darkslategray;
+}
+
+.menubar li:hover a {
+  color: pink;
+}
+.menubar li ul {
+  display: none;
+    position: absolute;
+    left: -.05rem;
+    margin-top: 1rem;
+    z-index: 10;
+}
+
+.menubar li:hover ul {
+  display: inline-block;
+  align-content: center;
+}
+
+.menubar li ul li {
+  width: 60%;
+  height: 100%;
+}
+
+.sponclin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: #000;
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+
+.clients {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  box-shadow: #000;
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+
+img {
+  max-width: 540px;
+} 
+
+.clientbtns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  grid-column: 1/4;
+  grid-row: 6/7;
+}
+
+button {
+  width: 7vw;
+  background-color: #3e7ebf;
+  border-radius: 5%;
+  height: 2vw;
+  align-items: center;
+  justify-content: center;
+  margin-left: 9vw;
+  margin-right: 9vw;
+  margin-bottom: 3vh;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a.hover{
+  cursor: pointer;
+}
+
+.grid-column-layout {
+    display: grid;
+    grid-template-columns: 33.33vw 33.33vw 33.33vw;
+    grid-template-rows: 15vh 53vh 32vh 35vh 35vh 10vh; 
+  }
